@@ -17,6 +17,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
+
 # 科学上网插件
-git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
+git clone https://github.com/liuran001/openwrt-packages/tree/b6f7809e865721366a49eab6c2a67e0411b57b7d/luci-app-ssr-plus
 git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
